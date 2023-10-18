@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form tag and input element/iframe</title>
+    <style>
+      .login {
+        background-color: #3adfdf;
+        align-items: right;
+        /* justify-content: right; */
+        width: fit-content;
+        margin-left: 200px;
+        margin-top: 50px;
+      }
+      #submit-btn {
+        background-color: red;
+        font-size: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" class="login">
+      <h3>Login Page</h3>
+      <label for="email">Enter Email </label>
+      <input id="email" type="email" /> <br />
+      <br />
+      <label for="password">Enter Password</label>
+      <input id="password" type="password" /> <br />
+      <br />
+      <label for="color">Choose Color</label>
+      <input id="color" type="color" /> <br />
+      <br />
+      <input type="datetime" /> <br />
+      <br />
+      <input type="file" /><br />
+
+      <label>Select Gender</label> <br />
+      <br />
+      <label>Male</label>
+      <input type="radio" value="Male" />
+      <label>Female</label>
+      <input type="radio" value="Female" />
+      <label>Others</label>
+      <input type="radio" value="Others" />
+
+      <h3>form Element</h3>
+      <label for="">I am agree to the term and condition</label>
+      <input type="checkbox" />
+
+      <h3>Radio Button</h3>
+      <label for="radio">html</label>
+      <input id="radio" type="radio" name="text1" value="html" />
+      <label for="radio">javascipt</label>
+      <input id="radio" type="radio" name="text1" value="html" />
+      <label for="radio">css</label>
+      <input id="radio" type="radio" name="text1" value="html" /> <br />
+      <br />
+      <input type="submit"  id="submit-btn">
+    </form>
+
+    <br />
+    <br />
+    <div class="images">
+      <img
+        src="./../day-9/allu-arjun-photo.jpg"
+        alt="image"
+        width="300"
+        height="350"
+      />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59894.53641288119!2d75.24884511510592!3d20.241885191521348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdbe8f722fb2c59%3A0x450c432f57b146be!2sBharamba%20Tanda%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1695094477058!5m2!1sen!2sin"
+        width="400"
+        height="350"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <style>
+        #grandParent{
+            display: flex;
+            border: 3px solid black;
+            height: 50px;
+            justify-content: space-between;
+            font-size: 30px;
+            background-color: aqua;
+        }
+        
+        #parent1{
+            width: 15%;
+            /* border: 3px solid yellow; */
+
+        }
+        #parent1 img{
+            /* width: 14%; */
+            height: 50px;
+            background-color: aqua;
+        }
+        #parent2{
+            width: 70%;
+            /* border: 3px solid green; */
+            display: flex;
+            justify-content:space-between;
+        }
+        #parent3{
+            width: 20%;
+            /* border: 3px solid red; */
+            text-align: end;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="grandParent">
+        <div id="parent1"><img src="./../images/flipkart-logo.png" alt=""></div>
+        <div id="parent2">
+            <div>Home</div>
+            <div>About</div>
+            <div>Contact us</div>
+            <div>drop down</div>
+        </div>
+        <div id="parent3">
+            <div>login</div>
+        </div>
+    </div>
+</body>
+</html>

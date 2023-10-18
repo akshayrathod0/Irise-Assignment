@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <style>
+        #parentDiv{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .childDiv{
+            width: 23%;
+            text-align: center;
+        }
+        h2{
+            line-height: 15px;
+        }
+        .childDiv:hover{
+            border: 3px solid black;
+
+        }
+
+        @media screen and (min-width : 100px) and (max-width : 470px){
+            #parentDiv{
+                flex-wrap: wrap;
+            }
+            .childDiv{
+                margin-top: 30px;
+                width: 49%;
+                color: red;
+                font-size: 20px;
+            }
+            
+        }
+        @media screen and (min-width:471px) and (max-width:900px) {
+            #parentDiv{
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .childDiv{
+                width: 31%;
+                font-size: 30px;
+                color: green;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="parentDiv">
+        <div class="childDiv">
+            <img src="./../images/allu-arjun-photo.jpg" alt="">
+            <h2>price</h2>
+            <h2>rating</h2>
+        </div>
+
+        <div class="childDiv">
+            <img src="./../images/allu-arjun-photo.jpg" alt="">
+            <h2>price</h2>
+            <h2>rating</h2>
+        </div>
+
+        <div class="childDiv">
+            <img src="./../images/allu-arjun-photo.jpg" alt="">
+            <h2>price</h2>
+            <h2>rating</h2>
+        </div>
+
+        <div class="childDiv">
+            <img src="./../images/allu-arjun-photo.jpg" alt="">
+            <h2>price</h2>
+            <h2>rating</h2>
+        </div>
+
+        <div class="childDiv">
+            <img src="./../images/allu-arjun-photo.jpg" alt="">
+            <h2>price</h2>
+            <h2>rating</h2>
+        </div>
+
+        <div class="childDiv">
+            <img src="./../images/allu-arjun-photo.jpg" alt="">
+            <h2>price</h2>
+            <h2>rating</h2>
+        </div>
+    </div>
+</body>
+</html>

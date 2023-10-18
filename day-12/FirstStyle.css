@@ -1,0 +1,15 @@
+
+#h1-tag {
+  color: red;
+  /* background-image: url('./../images/background-img'); */
+  /* height: 500px; */
+  font-size: 100px;
+  text-align: center;
+}
+#image1 {
+    display: flexbox;
+  position: relative;
+  left: 500px;
+  top: 2px;
+  background-color: yellow;
+}

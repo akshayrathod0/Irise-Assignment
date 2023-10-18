@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Differete-Attributed</title>
+    <style>
+      .form-test{
+        width:fit-content;
+        margin-top: 100px;
+         margin-left: 200px;
+         font-size: 30px;
+      }
+      .canvas-test{
+        width:"fit-content";
+        height:200px;
+        border: 3px solid black;
+        margin-top: 10px;
+        margin-left: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="form-test" onsubmit="alert('Button click') ">
+      <fieldset>
+        <legend>Login Form:</legend>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required maxlength="30" style="height: 25px;"/> <br /> <br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password" required maxlength="20" style="height: 20px;"/><br /><br />
+        <label >disabled</label>
+        <input type="text" disabled> <br/><br/>
+        <label >Read only text</label>
+        <input type="text" readonly placeholder="your name is"> <br/><br/>
+        <label >minlength: 10</label>
+        <input type="text" minlength="10"><br/><br/>
+        <label >maxlength: 20</label>
+        <input type="text" max="20"> <br/><br/>
+        <label for="text">MinMax: 20</label>
+        <input type="text" minmax="10"> <br/><br/>
+        <input type="submit" />
+      </fieldset>
+    </form>
+    <h3 style="margin-left: 200px; margin-top: 50px; font-size: 50px;">Draw Anything using canvas</h3>
+    <canvas class="canvas-test">
+      An alternative text describing what your canvas displays.
+    </canvas>
+  </body>
+</html>

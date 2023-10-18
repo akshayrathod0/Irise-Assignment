@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <style>
+
+      .image{
+        margin-left:50px;
+      }
+      .image h2{
+        margin-top: -15px;
+      }
+      img{
+        /* border:5px solid green;  */
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+      }
+      .skills{
+        margin-left: 50px;
+        font-size: 20px;
+      }
+      .education table, tr, td{
+        border: 3px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }    
+      .education{
+        margin-left: 50px;
+      }
+      .projects{
+        margin-left: 50px;
+      }
+      .projects table, tr, td{
+        text-align: center;
+        font-size: 25px;
+        border: 3px solid black;
+        border-collapse: collapse;
+      }
+      .contact-me{
+        text-align: center;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="border: 5px solid black; width: 100%">
+      <div style="text-align: center">
+        <h1>Resume</h1>
+      </div>
+      <div class="image">
+        <img src="./../images/passport_photo.jpeg" alt="resume image"/>
+        <h1>Akshay Rathod</h1>
+        <h2>B E Computer Engineering</h2>
+      </div>
+      <div class="skills">
+        <h1>Skills</h1>
+        <ul>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>html</li>
+            <li>css</li>
+            <li>Python (Basic)</li>
+        </ul>
+      </div>
+      <div class="education">
+        <h1>Education</h1>
+        <table>
+            <thead>
+                <tr>
+                    <td>Sr. No</td>
+                    <td>Education</td>
+                    <td>College/School</td>
+                    <td>Percentage/CGPA</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Degree</td>
+                    <td>SKN Sinhgad Institute, Lonavala</td>
+                    <td>7.73</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Diploma</td>
+                    <td>MGM's Polytechnic, SambhajiNagar</td>
+                    <td>84.40</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Primary Education</td>
+                    <td>Mahatma Jyotiba Phule High School, Pishore</td>
+                    <td>73.20</td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+      <div class="projects">
+        <h1>Projects</h1>
+        <table>
+            <thead>
+                <tr>
+                    <td>Sr. No</td>
+                    <td>Name</td>
+                    <td>Starting Date</td>
+                    <td>Ending Date</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Personal Portfolio</td>
+                    <td>03/04/2022</td>
+                    <td>05/04/2022</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Chating Application</td>
+                    <td>02/03/2022</td>
+                    <td>04/03/2022</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Algorithm Visualization</td>
+                    <td>01/09/2022</td>
+                    <td>20/03/2023</td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+      <div class="contact-me">
+        <h1>Contact me</h1>
+        <textarea name="msg" id="msg" cols="20" rows="5" placeholder="Type a Message that you want to send" required>
+        </textarea> <br />
+        <input type="email" placeholder="enter your email id" required> <br />
+        <input type="submit" onclick="alert('Message Sent')">
+      </div>
+    </div>
+  </body>
+</html>

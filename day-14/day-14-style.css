@@ -1,0 +1,37 @@
+.test-padding {
+  border: 5px solid black;
+  max-width: 700px;
+  height: 200px;
+  font-size: 50px;
+  /* text-decoration-line: line-through; */
+  /* text-decoration-line: overline; */
+  text-decoration-color: red;
+  text-decoration-line: underline;
+  color: green;
+  padding: 100px;
+  margin: 50px;
+}
+.test-outline {
+  width: 800px;
+  height: 300px;
+  border: 5px solid red;
+  text-align: center;
+  font-size: 50px;
+  margin: 50px;
+  outline: 7px solid black;
+  outline-offset: 7px;
+}
+p{
+    font-size: 30px;
+    text-align-last: center;
+}
+#span1{
+    /* text-decoration-line: line-through; */
+    text-decoration-line: underline overline;
+    text-decoration-style: dashed;
+    text-decoration-color:blue;
+}
+#span2{
+    text-decoration-line: line-through;
+    text-decoration-color: green;
+}
